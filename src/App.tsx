@@ -1,4 +1,4 @@
-import { Box, Button, Paper, Table, TableBody, TableContainer, TableHead } from '@mui/material'
+import { Button } from '@mui/material'
 import './App.css'
 import { useMemo, useState } from 'react'
 import { makeDataUser } from './data/makeDataUser'
@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-      <Button 
+      <Button
         variant="contained"
         sx={{ mb: 2 }}
         onClick={() => setData(makeDataUser(100))}
